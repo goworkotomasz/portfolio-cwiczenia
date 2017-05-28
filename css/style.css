@@ -1,0 +1,240 @@
+
+
+body {
+    font-family: 'lato', sans-serif;
+    font-size: 20px;
+}
+
+
+    
+.cool {
+    width: 50%;
+    float: left;
+}
+
+        /* TŁO-ZDJĘCIE*/
+#main-header {
+	height: 100vh;
+	margin: auto;
+	background-image: url('../img/header-background.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+
+                        /* MENU NAWIGACYJNE*/
+#main-menu {
+	background-color: transparent;
+	position: fixed;
+	z-index: 10;
+	width: 100%;
+	margin: 0;
+	text-align: right;
+}
+
+#main-menu label,
+#main-menu #drop {
+	display: none;
+}
+
+#main-menu ul .menu-item {
+	display: inline-block;
+	padding: 20px;
+}
+
+#main-menu ul .menu-item a {
+	color: white;
+	text-decoration: none;
+	transition: all .3s;
+}
+
+#main-menu ul .menu-item a:hover {
+	color: #1ac056;
+}
+
+#main-menu.scroll {
+	background-color: white;
+}
+
+#main-menu.scroll ul .menu-item a {
+	color: #1ac056;
+}
+
+#main-menu.scroll ul .menu-item a:hover {
+	color: #291f1a;
+}
+
+            /* MAIN HEADER */
+
+#main-header {
+	position: relative;
+}
+
+.header {
+	position: absolute;
+	top: 50%;
+	text-align: center;
+	color: white;
+	right: 0;
+	left: 0;
+	transform: translateY(-50%);
+	font-family: 'Roboto', sans-serif;
+}
+
+#main-header .header h1 {
+	font-size: 5em;
+	font-weight: 300;
+}
+
+#main-header .header h2 {
+	font-size: 2.3em;
+	font-weight: 200;
+}
+
+ .header span {
+    color: #1ac056;
+}
+                /* SEKCJA O MNIE */
+
+#about-header {
+	text-align: center;
+	font-size: 2.0em;
+    font-weight: 300;
+}
+
+#aboutme-image {
+	text-align: center;
+}
+
+#jannowak {
+	max-height: 400px;
+	max-width: 100%;
+	border: 20px solid white;
+}
+
+
+#about-header span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+
+#about {
+    margin: auto;
+    background-position: center;
+    background-size: cover;
+}
+
+#about-content {
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+#about p:first-child {
+	margin: 0;
+}
+
+section {
+    overflow: auto;
+    padding: 25px 40px;
+}
+
+
+
+/* MOJE UMIEJETNOSci */
+
+#skills {
+    text-align: center;
+}
+
+#about-skills {
+    font-size: 1.7em;
+    font-weight: 300;
+}
+#about-skills span {
+    color: #1ac056;
+    font-weight: 400;
+}
+
+figure {
+    display: inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+p {
+    font-size: 1em;
+	font-weight: 300;
+}
+
+
+
+
+
+/* PORTFOLIO */
+
+
+#portfolio {
+	text-align: center;
+}
+
+#mojeportfolio {
+    font-size: 1.7em;
+	font-weight: 300;
+}
+
+#portfolio .portfolio-items {
+	font-size: 0;
+	text-align: center;
+}
+
+#portfolio #portfolio-container .floated {
+    width: 33.33333%;
+    float: left;
+    height: 350px;
+    background-size: cover;
+    position: relative;
+}
+
+#portfolio #portfolio-container .floater .item-mask {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(42, 61, 79, 0.8);
+    opacity: 0;
+    transition: all .5s ease-in-out;
+    
+}
+
+#portfolio #portfolio-container .floated .item-mask:hover {
+    opacity: 1;
+}
+
+#item-1 {
+    background-image: url('../img/portfolio1.jpg');
+}
+
+#item-2 {
+    background-image: url('../img/portfolio2.jpg');
+}
+
+#item-3 {
+    background-image: url('../img/portfolio4.jpg');
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* KONTAKT */
+
+
